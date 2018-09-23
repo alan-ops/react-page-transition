@@ -1,0 +1,21 @@
+body {
+  font-family: 'Arial', sans-serif;
+  width: 800px;
+  margin: 0 auto;
+  padding: 0;
+}
+
+.page-enter {
+  transition: all .3s ease-in;
+  opacity: 0;
+  transform: translateY(100%);
+}
+
+.page-enter-active {
+  opacity: 1;
+  transform: translateY(0);
+}
+
+.page-exit {
+  display: none;
+}
